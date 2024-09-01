@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1"> 
+        <title>MuN</title>
+        <link rel="stylesheet" href="css/style.css">
+        
+        
+    </head>
+    <body>
+        <div class="instagram-icon" id="instagram"></div>
+        <div class="spotify-icon" id="spotify"></div>
+        <div class="spotify">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2jYBkTzGGfX34S4THpQRPA?utm_source=generator&theme=0" width="400" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <div class="container"></div>
+        <div class="avatar"></div>
+        <script>
+            document.getElementById('instagram').addEventListener('click', function() {
+                window.location.href = 'https://www.instagram.com/iliyamun';
+            });
+        </script>
+        <script>
+            document.getElementById('spotify').addEventListener('click', function() {
+                window.location.href = 'https://open.spotify.com/user/31s5od4l7n3jyxpdvxucn3mse3uq?si=000ba38481a54765';
+            });
+        </script>
+        <div class="h1"><h1>
+            <a href="" class="typewrite" data-period="2000" data-type='[ "Hi There!", "Im Iliya.", "An Iranian boy.", "Who likes to", "Code and study all the time." ]'>
+              <span class="wrap"></span>
+            </a>
+        </h1></div>
+        <canvas id="particleCanvas"> </canvas>
+   
+    </body>
+    <script type="text/javascript" src="scripts/script.js"></script>
+    <script type="text/javascript" src="scripts/rain.js"></script>
+    <audio controls autoplay>
+        <style>
+            audio{
+                display: none;
+            }
+        </style>
+        <source src="ariamath.mp3" type="audio/mpeg">
+      </audio>
+</html>
