@@ -1,7 +1,7 @@
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
-  var str = '@mun';
+  var str = 'MuN';
   document.title = '';
   async function typewriteTitle() {
     for (let i = 0; i < str.length; i++) {
