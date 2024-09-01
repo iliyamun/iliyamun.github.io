@@ -8,6 +8,7 @@ body {
   
   background-image: url("/images/1349195.jpg");
   background-size: 100%;
+  background-repeat: no-repeat;
   text-align: center;
   color:#fff;
   padding-top:10em;
