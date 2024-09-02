@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width,initial-scale=1"> 
         <title>MuN</title>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/x-icon" href="/images/logo.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
         
         
     </head>
@@ -12,7 +16,18 @@
         <div class="instagram-icon" id="instagram"></div>
         <div class="spotify-icon" id="spotify"></div>
         <div class="spotify">
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2jYBkTzGGfX34S4THpQRPA?utm_source=generator&theme=0" width="400" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <div class="flex-wrapper">
+            <div class="audio-button" id="audioButton"></div>
+        </div>
+        <audio id="myAudio">
+            <source src="ariamath.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <script type="text/javascript" src="scripts/music.js"></script>
+        
+        
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2jYBkTzGGfX34S4THpQRPA?utm_source=generator&theme=0" width="400" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
         <div class="container"></div>
         <div class="avatar"></div>
@@ -32,17 +47,9 @@
             </a>
         </h1></div>
         <canvas id="particleCanvas"> </canvas>
-   
+        
     </body>
     <script type="text/javascript" src="scripts/script.js"></script>
     <script type="text/javascript" src="scripts/rain.js"></script>
-    <audio controls autoplay loop>
-        <source src="ariamath.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-        <style>
-            audio{
-                display: none;
-            }
-        </style>
-      </audio>
+
 </html>
