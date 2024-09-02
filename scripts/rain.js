@@ -110,7 +110,7 @@ function loop() {
 
 	requestAnimationFrame(loop);
 	render();
-	document.getElementById("status1").innerHTML = 'Particle Count: ' + (raindrops.drops.length + raindrops.splashes.length);
+
 
 }
 

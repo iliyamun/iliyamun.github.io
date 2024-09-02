@@ -84,23 +84,18 @@ canvas {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  transition: transform 0.3s ease-in-out;
+ 
+  
+  transition: transform .2s;
+  margin: 0 auto;
+
+}
+  
+  .instagram-icon:hover {
+    transform: scale(1.2);
   }
   
-.instagram-icon:hover {
-  animation: float 1s ease-in-out infinite;
-}
-  
-  
-.instagram-icon {
-  animation: none;
-}
-  
-  
-.instagram-icon:hover {
-  animation: float 1s ease-in-out; 
-}
-    
+
   
 .spotify-icon{
   
@@ -114,34 +109,27 @@ canvas {
   background-size: cover; 
   background-position: center; 
   border-radius: 50%; 
-  transition: transform 0.3s ease-in-out;
-    
+
+
   
+  transition: transform .2s;
+  margin: 0 auto;
+
 }
-
-
-.spotify-icon:hover {
-  animation: float 1s ease-in-out infinite;
-}
-
-
-.spotify-icon {
-  animation: none;
-}
-
-
-.spotify-icon:hover {
-  animation: float 1s ease-in-out; 
-}
-
+  
+  .spotify-icon:hover {
+    transform: scale(1.2);
+  }
 
 .luna-container {
-  display: inline-block;
+
   position: absolute;
   width: 100px; 
   height: 100px; 
   perspective: 1000px; 
   z-index: 1;
+  left: 720px;
+  top: 170px;
 }
 
 
@@ -186,7 +174,7 @@ canvas {
   
   position: absolute;
   z-index: 1;
-  left: 520px;
+  left: 495px;
   top: 420px;
   
   }
@@ -195,7 +183,7 @@ canvas {
   width: 50px;
   height: 50px;
   position: absolute;
-  right: 850px;
+  right: 880px;
   bottom: 550px;
   cursor: url("/images/Cursor.png");
   background-size: cover; 
