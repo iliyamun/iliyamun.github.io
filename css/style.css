@@ -169,13 +169,12 @@ canvas {
 
 
 
-
-.spotify{
+.discord{
   
   position: absolute;
   z-index: 1;
-  left: 495px;
-  top: 420px;
+  left: 520px;
+  top: 370px;
   
   }
 
@@ -183,8 +182,8 @@ canvas {
   width: 50px;
   height: 50px;
   position: absolute;
-  right: 880px;
-  bottom: 550px;
+  right: 920px;
+  bottom: 600px;
   cursor: url("/images/Cursor.png");
   background-size: cover; 
   background-position: center; 
@@ -193,7 +192,7 @@ canvas {
   animation: float 3s ease-in-out infinite;
   opacity: 0.7;
   background-color: #3f1f19;
-
+  z-index: 1;
 }
 
 @keyframes float {
@@ -214,3 +213,4 @@ canvas {
   opacity: 0.8;
   cursor: url("/images/Cursor.png")
 }
+
