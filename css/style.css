@@ -54,6 +54,7 @@ canvas {
 	right: 0;
 	top: 0;
 	bottom: 0;
+  z-index: 1;
 }
 
 .avatar {
@@ -116,14 +117,9 @@ background-size: 100%;
 .spotify{
 
 position: absolute;
-z-index: 1;
+z-index: 0;
 left: 520px;
 top: 420px
 
 }
 
-.particle{
-
-display: none;
-
-}
