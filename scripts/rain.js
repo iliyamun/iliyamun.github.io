@@ -4,7 +4,7 @@ var cH;
 
 var raindrops;
 
-var rainStrength = 5;
+var rainStrength = 15;
 
 function initCanvas() {
 
