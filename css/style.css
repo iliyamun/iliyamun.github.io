@@ -117,7 +117,7 @@ background-size: 100%;
 .spotify{
 
 position: absolute;
-z-index: 0;
+z-index: 1;
 left: 520px;
 top: 420px
 

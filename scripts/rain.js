@@ -10,8 +10,8 @@ function initCanvas() {
 
 	ctx = document.getElementById("particleCanvas").getContext("2d");
 
-	ctx.canvas.width = 1280 * 0.75; //690
-	ctx.canvas.height = 720 * 0.75; //540
+	ctx.canvas.width = 1920 * 0.75; //690
+	ctx.canvas.height = 1080 * 0.75; //540
 
 	cW = ctx.canvas.width;
 	cH = ctx.canvas.height;
@@ -57,7 +57,7 @@ Raindrops.prototype.render = function() {
 
 	ctx.clearRect(0, 0, cW, cH);
 
-	ctx.fillStyle = 'rgba(50, 80, 200, 1)';
+	ctx.fillStyle = 'rgb(255, 255, 255)';
 	for (var i = 0; i < this.drops.length; i++) {
 		var drop = this.drops[i];
 
