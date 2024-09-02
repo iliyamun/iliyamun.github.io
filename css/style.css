@@ -4,40 +4,40 @@ html{
   
   }
   
-  body {
+body {
     
-    background-image: url("/images/1349195.png");
-    background-size: 100%;
-    text-align: center;
-    color:#fff;
-    padding-top:10em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: url("/images/1349195.jpg");
+  background-size: 100%;
+  text-align: center;
+  color:#fff;
+  padding-top:10em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
   }
   
   * { color:#fff; text-decoration: none;}
   
-  .container{
+.container{
     
-    background-image: linear-gradient(to bottom left, #fd7d49, #3f1f19);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    left: 450px;
-    top: 85px;
-    width: 400px;
-    height: 400px;
-    padding: 50px;
-    margin: 20px;
-    opacity: 0.9;
-    z-index: 0;
+  background-image: linear-gradient(to bottom left, #fd7d49, #3f1f19);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 450px;
+  top: 85px;
+  width: 400px;
+  height: 400px;
+  padding: 50px;
+  margin: 20px;
+  opacity: 0.9;
+  z-index: 0;
   
-    border-radius: 20px;
+  border-radius: 20px;
   
   }
   
-  .h1{
+.h1{
   
   position: absolute;
   top: 275px;
@@ -45,16 +45,16 @@ html{
   
   }
   
-  canvas {
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+canvas {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   }
   
-  .avatar {
+.avatar {
   position: absolute;
   left: 500px;
   top: 130px;
@@ -67,7 +67,7 @@ html{
   border-radius: 20%;
   }
   
-  .instagram-icon{
+.instagram-icon{
   background-image: url("/images/instagram.png");
   position: absolute;
   z-index: 1;
@@ -81,37 +81,37 @@ html{
   
   }
   
-  .instagram-icon:hover{
-    box-shadow: white 0 0 3px 3px;
-    border-radius: 17px;
+.instagram-icon:hover{
+  box-shadow: white 0 0 3px 3px;
+  border-radius: 17px;
   }
   
-  .spotify-icon{
+.spotify-icon{
   
-    background-image: url("/images/spotify.png");
-    position: absolute;
-    z-index: 1;
-    left: 900px;
-    top: 220px;
-    height: 50px;
-    width: 50px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
+  background-image: url("/images/spotify.png");
+  position: absolute;
+  z-index: 1;
+  left: 900px;
+  top: 220px;
+  height: 50px;
+  width: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
     
   
   }
   
   
-  .spotify-icon:hover{
-    box-shadow: white 0 0 3px 3px;
-    border-radius: 50%;
+.spotify-icon:hover{
+  box-shadow: white 0 0 3px 3px;
+  border-radius: 50%;
   }
   
   
   
   
-  .spotify{
+.spotify{
   
   position: absolute;
   z-index: 1;
